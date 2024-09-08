@@ -1,0 +1,5 @@
+employee_individual: Focus on words individual employee performance, skills, and personal development.
+team_performance: Analyze words for team dynamics, collaboration, and collective achievements.
+organizational_commitment: Evaluate words for employee loyalty, dedication, and alignment with company values.
+organizational_citizenship_behavior: Assess words for extra-role behaviors, volunteerism, and actions that benefit the organization beyond job requirements.
+workplace_innovation: Identify innovative ideas and practices in the workplace.

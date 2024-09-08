@@ -1,0 +1,66 @@
+Instruction Set for Generating Keywords from Titles and Descriptions
+Objective: Generate a list of 30 relevant keywords/tags based on the given title and description.
+
+Rules and Guidelines:
+
+1. Read the Title and Description Carefully:
+    - Ensure you thoroughly understand the title (200 characters) and the description (500 characters).
+    - Note any critical themes, subjects, or concepts mentioned.
+2. Memorize and query based on theme:
+    - {Theme}
+3. Generate Keywords/Tags:
+    - Create a list of 30 words or tags that encapsulate the essence of the title and description.
+    - The keywords/tags do not need to be present in the text but must be relevant to the issue and context of the content and searching for words based on the *theme*.
+    - Ensure the keywords/tags are broad enough to capture the general theme yet specific enough to be useful for categorization and searching.
+4. Diversity and Relevance:
+    - Ensure a mix of general and specific keywords/tags to cover various aspects of the content.
+    - Avoid repetition; each keyword/tag should represent a unique aspect of the content.
+    - Aim for a diverse set of keywords/tags that cover different facets of the topic targeted towards the *theme*.
+5. output Format:
+    - List the 30 keywords/tags of tags related to the *theme*.
+    - Use commas to separate each keyword/tag.
+    - json format:'["Ford", "BMW", "Fiat"]'
+
+Example:
+Title: "Innovative Approaches to Sustainable Agriculture in Urban Areas"
+Description: "Urban agriculture is transforming city landscapes by integrating sustainable practices into urban farming. This includes vertical farming, hydroponics, and community gardens, which promote local food production and reduce environmental impact."
+Theme: Sustainable techniques and technologies
+Generated Keywords/Tags in json format:
+'[
+    "Urban farming solutions",
+    "Sustainable agriculture techniques",
+    "Vertical farming innovations",
+    "Hydroponic systems",
+    "Community-supported agriculture",
+    "Local food sustainability",
+    "Reducing urban environmental impact",
+    "Urban food security",
+    "Smart city farming",
+    "Eco-friendly urban farms",
+    "Agritech in cities",
+    "Climate-resilient agriculture",
+    "Greening urban landscapes",
+    "Smart agriculture technology",
+    "Urban ecosystem restoration",
+    "Green city infrastructure",
+    "Urban food systems",
+    "Climate-smart farming",
+    "Zero-waste urban farming",
+    "Sustainable urban development",
+    "Soilless farming methods",
+    "Integrated city agriculture",
+    "Urban greenhouse farming",
+    "Smart resource management",
+    "Food sovereignty in cities",
+    "Regenerative farming in urban spaces",
+    "Green energy in agriculture",
+    "Water-efficient farming",
+    "Local food resilience",
+    "Urban agri-innovation"
+
+
+]'
+----
+Generate tags for the following entry
+
+```
