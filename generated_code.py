@@ -17,7 +17,7 @@ class OpenAIClient(LLMClient):
     def __init__(self):
         from openai import OpenAI
         self.client = OpenAI(
-            api_key="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")
+            api_key="")
 
     def generate_response(self, prompt: str) -> str:
         response = self.client.chat.completions.create(
@@ -30,7 +30,7 @@ class OpenAIClient(LLMClient):
 class GeminiClient(LLMClient):
     def __init__(self):
         import google.generativeai as genai
-        genai.configure(api_key="AIzaSyA8dgZIsL-i_oreDzaXXBJ-UCpxRA317rg")
+        genai.configure(api_key="")
         self.model = genai.GenerativeModel("gemini-1.5-flash")
 
     def generate_response(self, prompt: str) -> str:
