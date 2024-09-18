@@ -51,10 +51,10 @@ class MetaTagGenerator:
 
     def _load_predefined_themes(self):
         predefined_themes = {
-            "employee_individual": "Focus on words individual employee performance, skills, and personal development.",
-            "team_performance": "Analyze words for team dynamics, collaboration, and collective achievements.",
-            "organizational_commitment": "Evaluate words for employee loyalty, dedication, and alignment with company values.",
-            "organizational_citizenship_behavior": "Assess words for extra-role behaviors, volunteerism, and actions that benefit the organization beyond job requirements."
+            "employee_individual": "Find or suggest closely related words for individual employee performance, skills, and personal development.",
+            "team_performance": "Find or suggest closely related words for team dynamics, collaboration, and collective achievements.",
+            "organizational_commitment": "Find or suggest closely related words for employee loyalty, dedication, and alignment with company values.",
+            "organizational_citizenship_behavior": "Find or suggest closely related words for extra-role behaviors, volunteerism, and actions that benefit the organization beyond job requirements."
         }
         for theme, prompt in predefined_themes.items():
             self.add_theme(theme, prompt)
@@ -66,7 +66,7 @@ class MetaTagGenerator:
     def _save_themes_to_file(self):
         with open('themes.txt', 'w') as f:
             for theme, prompt in self.themes.items():
-                f.write(f"{theme}: {prompt}\n")
+                f.write(f"{theme}: {prompt},\n")
 
     def load_themes_from_file(self):
         try:

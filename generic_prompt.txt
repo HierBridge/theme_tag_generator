@@ -62,5 +62,9 @@ Generated Keywords/Tags in json format:
 ]'
 ----
 Generate tags for the following entry
+Issue Title: {Issue Title}
+Description: {Description}
+Theme: {Theme}
 
+Meta Tags:
 ```
